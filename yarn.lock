@@ -6322,6 +6322,11 @@ multicast-dns@^7.2.5:
     dns-packet "^5.2.2"
     thunky "^1.0.2"
 
+mvp.css@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/mvp.css/-/mvp.css-1.12.0.tgz#a202b5a96fc23a1ffc618f9100ee26dccd0e0587"
+  integrity sha512-X/nIJUP/aIaD6gzPEOLIQxxotZEpRhnwKADT4ydxnnt8AACOSu/PJxFKCW1ouxbXVVERWOYxJp/tA45U0EVPaw==
+
 nanoid@^3.3.4:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
