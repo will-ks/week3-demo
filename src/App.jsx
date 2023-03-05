@@ -1,5 +1,6 @@
 import React from "react";
 import "mvp.css";
+import AddressBookDisplay from "./AddressBookDisplay";
 import ContactList from "./ContactList";
 import Address from "./Address";
 
@@ -11,8 +12,7 @@ function App() {
       </header>
       <main>
         <section>
-          <ContactList />
-          <Address />
+          <AddressBookDisplay />
         </section>
       </main>
     </>
