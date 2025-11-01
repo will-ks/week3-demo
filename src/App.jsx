@@ -1,8 +1,7 @@
 import React from "react";
 import "mvp.css";
 import AddressBookDisplay from "./AddressBookDisplay";
-import ContactList from "./ContactList";
-import Address from "./Address";
+import ConditionalRender from "./ConditionalRender";
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
       <header>
         <h1>Address Book</h1>
       </header>
+      <ConditionalRender isEndOfDay={true} favouriteNumber={33} />
       <main>
         <section>
           <AddressBookDisplay />
